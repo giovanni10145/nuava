@@ -1,0 +1,64 @@
+/* Fondo de la página */
+body {
+    background-image: url('/img/1.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el header */
+.header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Estilo para la sección de la imagen */
+.imagen {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Contenido principal */
+.contenido {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para las motocicletas */
+.moto {
+    margin-bottom: 20px;
+}
+
+/* Estilo de las imágenes dentro de la sección de motos */
+.moto img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Estilo de los párrafos */
+p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los enlaces (si los tienes) */
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #ff6347;
+}

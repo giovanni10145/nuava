@@ -1,0 +1,77 @@
+/* Fondo con imagen */
+body {
+    background-image: url('/img/1.webp'); /* Ruta para subir desde /html */
+    background-size: cover; /* Ajuste para cubrir la pantalla */
+    background-position: center; /* Centrado */
+    background-attachment: fixed; /* Mantener fijo el fondo */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Imagen */
+img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Menú */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilo de los enlaces */
+.menu a {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    background-color: #ff7f50;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover */
+.menu a:hover {
+    background-color: #ff6347;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Diseño responsive para pantallas grandes */
+@media (min-width: 600px) {
+    .menu {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .menu a {
+        width: auto;
+    }
+}

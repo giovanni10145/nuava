@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    background-image: url('/img/1.webp');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Título principal */
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+    color: #00e6e6; /* Color verde azulado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Contenido principal */
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo de las imágenes */
+.image {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 15px;
+}
+
+/* Estilo para los párrafos */
+.text {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para la lista de razones */
+.future {
+    margin-top: 30px;
+}
+
+.future h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.future ul {
+    list-style: none;
+    padding: 0;
+}
+
+.future li {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los modelos */
+.modelos {
+    margin-top: 30px;
+}
+
+.moto-model {
+    margin-bottom: 20px;
+}
+
+.moto-model p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #00e6e6;
+}
